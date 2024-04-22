@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Emin Amirov</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="#">Shapely Demo</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn">
+                <span class="navicon"></span>
+            </label>
+            <nav class="navbar-menu">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">Blog</a></li>
+                    <li class="nav-item"><a href="#">Portfolio</a></li>
+                    <li class="nav-item">
+                        <div class="dropdown" >
+                            <button onclick="Show('tests')" class="dropbtn">About the tests<img src="/images/arrow.png" alt=""></button>
+                            <div class="dropdown-content"id="tests">
+                                <a href="#">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                            </div>
+                        </div>
+                    </li>                
+                    <li class="nav-item">
+                        <div class="dropdown" >
+                            <button onclick="Show('lvl1')" class="dropbtn">Level1<img src="/images/arrow.png" alt=""></button>
+                            <div class="dropdown-content"id="lvl1">
+                                <a href="#">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                            </div>
+                        </div>
+                    </li>                
+                    <li class="nav-item">
+                        <div class="dropdown" >
+                            <button onclick="Show('shop')" class="dropbtn">Shop<img src="/images/arrow.png" alt=""></button>
+                            <div class="dropdown-content"id="shop">
+                                <a href="#">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <img src="/images/search.png" alt="">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>We Change Everything WordPress</h1>
+        <p>This is the only WordPress theme you will ever want to use</p>
+        <div>
+            <button class="button transparent">Download now</button>
+            <button class="button">Read more</button>
+        </div>
+    </main>
+</body>
+</html>
